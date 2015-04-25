@@ -1,0 +1,71 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+.pane {
+	/*background: #3498db;*/
+	color: #fff;
+	font-weight: 500;
+	font-size: 4em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+	color: #1e6fa4;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #125480;
+	outline: none;
+}
+
+h4, a {
+	color: rgba(0,0,0,0.6);
+	text-decoration: none;
+	outline: none;
+}
+
+h4:hover, h4:focus {
+	color: rgba(0,0,0,0.25);
+}
+
+.spinner svg {
+  width: 28px;
+  height: 28px;
+  stroke: #444;
+  fill: #444;
+}
+
+#search-bar {
+  background: none;
+  position: relative;
+  width: 100%;
+  top: 10px;
+  height: 40px;
+  z-index: 3;
+}
+#search-bar .item {
+  background: none;
+  border: none;
+}
+
+#content {
+  position: absolute;
+  padding: 200px;
+  top: 100px;
+}
+
